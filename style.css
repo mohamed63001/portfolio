@@ -11,6 +11,8 @@ body {
   width: var(--hero-photo-size);
   height: var(--hero-photo-size);
   object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(255,255,255,0.3);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -34,6 +36,14 @@ section {
 .btn:hover {
   transform: translateY(-3px);
 }
+.btn-success {
+  background: linear-gradient(45deg, #28a745, #20c997);
+  border: none;
+}
+
+.btn-success:hover {
+  transform: scale(1.05);
+}
 .progress {
   height: 18px;
 }
@@ -49,4 +59,7 @@ section {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.nav-link.active {
+  color: #00ffcc !important;
 }
