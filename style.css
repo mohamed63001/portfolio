@@ -1,0 +1,52 @@
+:root {
+  --hero-photo-size: 200px;
+}
+
+body {
+  font-family: "Poppins", system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero-photo {
+  width: var(--hero-photo-size);
+  height: var(--hero-photo-size);
+  object-fit: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  transition: color 0.3s, transform 0.2s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #4dfd0d;
+  transform: scale(1.05);
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+.btn {
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+.progress {
+  height: 18px;
+}
+
+.progress-bar {
+  line-height: 18px;
+  font-weight: 500;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
